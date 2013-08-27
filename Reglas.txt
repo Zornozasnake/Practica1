@@ -1,0 +1,16 @@
+se genera un archivo llamado .gitignore en se incluyen los archivos que queramos
+que Git ignore.
+
+podemos utilizar *.o esto hara que Git ignore todos los archivos con extensión .o
+
+las lineas del archivo que inicien con # son comentario.
+
+si el archivo indicado termina en / hace referencia a un directorio, si agregamos
+Practica/ se ignorara todo los archivos existentes en el directorio practica.
+
+podemos agrupar caracteres con [], *.[oa] ignorara todo los archivos con extensión
+o y a.
+
+el caracter ? es sustituido por cualquier caracter, H???a.c ignorara Hola.c Hooa.c,
+pero no ignorara Hoola.c, H.c etc.
+
